@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    height: 5rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    place-items: flex-start;
+    background: white;
+}
+
+.blank{
+    width: 50%;
+    display: flex;
+}
+
+.logo{
+    font-size:32px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 5%;
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+    place-items: flex-end;
+    gap: 2rem;
+    color: #555;
+    position: absolute;
+    left: 70%;
+    font-size: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(to right, #6c4693, #e97cf1);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+.header-content{
+    top: 30%;
+    right: 40%;
+    position: absolute;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#skills {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+}
+
+#projects {
+    background-color: #f4f4f4;
+}
+
+#resume {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: #fff;
+}
+
+#contact {
+    background-color: #f9f9f9;
+}
+
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+
+#skills ul {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+}
+
+#skills li {
+    margin: 0;
+    font-size: 2rem;
+    
+}
+
+
+.project {
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+#resume a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+
+#contact p {
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
